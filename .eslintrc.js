@@ -12,5 +12,8 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['react'],
-  rules: {},
+  rules: {
+    'require-jsdoc': 0,
+    'new-cap': 0,
+  },
 };
